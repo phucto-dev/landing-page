@@ -29,7 +29,6 @@ export default function RootLayout({
       <body className="">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex-col">
-            <MainNav />
             <main className="">
               {children}
             </main>
