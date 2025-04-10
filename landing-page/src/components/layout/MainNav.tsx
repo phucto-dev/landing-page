@@ -29,7 +29,7 @@ const MainNav = () => {
                         ))}
                     </div>
                     <div className="flex justify-center items-center">
-                        <Search className=''/>
+                        <Search className='hover:cursor-pointer'/>
                         <Button className="rounded-full p-4 h-10 w-30 ml-6 bg-white text-black text-base border border-black hover:cursor-pointer hover:bg-blue-500 hover:border-blue-500">
                             Contact us
                         </Button>
